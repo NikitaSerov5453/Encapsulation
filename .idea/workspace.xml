@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4485e3f3-916d-4757-8b40-75173c6761be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task1/core/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task1/views/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task3/core/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task3/core/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task3/views/View.java" afterDir="false" />
+    <list default="true" id="4485e3f3-916d-4757-8b40-75173c6761be" name="Changes" comment="1, 2 done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task3/core/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task3/core/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task3/core/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task3/core/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task3/views/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task3/views/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +45,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/dante5453/Downloads/CarRacing&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.org.example.task3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.task1.Main" />
       <module name="Encapsulation" />
@@ -67,8 +59,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.task3.Main" />
+      <module name="Encapsulation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.task3.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -82,6 +88,14 @@
       <option name="presentableId" value="Default" />
       <updated>1694125046125</updated>
     </task>
+    <task id="LOCAL-00001" summary="1, 2 done">
+      <created>1694541827773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694541827773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,5 +108,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1, 2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="1, 2 done" />
   </component>
 </project>

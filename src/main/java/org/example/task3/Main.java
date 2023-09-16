@@ -1,5 +1,9 @@
 package org.example.task3;
 
+import org.example.task3.core.Money;
+import org.example.task3.core.Operation;
+import org.example.task3.views.View;
+
 /**
  * ВНИМАНИЕ!!!
  * Все задания должны быть решены с использованием
@@ -17,4 +21,19 @@ package org.example.task3;
  */
 
 public class Main {
+    public static void main(String[] args) {
+        Operation operation = new Operation();
+        Money money = new Money();
+        Money money1 = new Money();
+        View view = new View();
+        money.setHryvnia(159);
+        money1.setHryvnia(10);
+        money.setPenny(99);
+        money1.setPenny(34);
+        System.out.println(operation.addition(money, money1));
+        System.out.println(operation.subtraction(money, money1));
+        System.out.println(operation.multiplication(money, 3));
+        System.out.println(operation.division(money, 10.7));
+        view.compare(money, money1);
+    }
 }
