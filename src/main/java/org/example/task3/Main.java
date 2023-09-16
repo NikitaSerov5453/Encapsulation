@@ -1,7 +1,6 @@
 package org.example.task3;
 
 import org.example.task3.core.Money;
-import org.example.task3.core.Operation;
 import org.example.task3.views.View;
 
 /**
@@ -22,7 +21,6 @@ import org.example.task3.views.View;
 
 public class Main {
     public static void main(String[] args) {
-        Operation operation = new Operation();
         Money money = new Money();
         Money money1 = new Money();
         View view = new View();
@@ -30,10 +28,14 @@ public class Main {
         money1.setHryvnia(10);
         money.setPenny(99);
         money1.setPenny(34);
-        System.out.println(operation.addition(money, money1));
-        System.out.println(operation.subtraction(money, money1));
-        System.out.println(operation.multiplication(money, 3));
-        System.out.println(operation.division(money, 10.7));
+        view.addition(money, money1);
+        view.subtraction(money, money1);
+        view.multiplication(money, 3);
+        view.multiplication(money, 3.0);
+        view.multiplication(money, 3.1);
+        view.division(money, 10);
+        view.division(money, 10.0);
+        view.division(money,10.1);
         view.compare(money, money1);
     }
 }

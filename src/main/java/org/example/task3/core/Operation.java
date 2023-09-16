@@ -35,9 +35,9 @@ public class Operation {
     public Money division(Money money, int divider) {
         Money money1 = new Money();
         int c = (int) (((double) money.getHryvnia() / divider) * 100);
-        byte a = (byte) (money.getPenny() / divider + c);
+        int a = (money.getPenny() / divider + c);
         if (a > 100) {
-            a = (byte) (a % 100);
+            a = (a % 100);
         }
         money1.setPenny(a);
         money1.setHryvnia(money.getHryvnia() / divider);
