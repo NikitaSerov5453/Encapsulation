@@ -1,14 +1,20 @@
 package org.example.task6.core;
 
 public class Student {
-    public Student() {
-
-    }
-
     private String surname;
     private String name;
     private int groupIDNumber;
+    private ReaderTicket readerTicket;
+    public Student() {
 
+    }
+    public ReaderTicket getReaderTicket() {
+        return readerTicket;
+    }
+
+    public void setReaderTicket(ReaderTicket readerTicket) {
+        this.readerTicket = readerTicket;
+    }
     public String getSurname() {
         return surname;
     }
@@ -35,6 +41,8 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Фамилия: " + surname + "Имя: " + name + "Группа №: " + groupIDNumber;
+        return "\nФамилия: " + surname +
+                "\nИмя: " + name +
+                "\nГруппа №: " + groupIDNumber;
     }
 }

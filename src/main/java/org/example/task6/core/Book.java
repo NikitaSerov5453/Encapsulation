@@ -4,12 +4,12 @@ import java.util.Date;
 
 public class Book {
 
+    private String bookName;
+    private String author;
+
     public Book() {
 
     }
-
-    private String bookName;
-    private String author;
 
     public String getBookName() {
         return bookName;

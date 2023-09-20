@@ -1,38 +1,50 @@
 package org.example.task6.core;
 
-import java.util.Date;
+import java.util.ArrayList;
 
 public class ReaderTicket {
-    public ReaderTicket() {
+    private static int readerTicketIDNumber;
+    private final int numberCreation;
 
+    public void setStudent(Student student) {
+        this.student = student;
     }
 
-    private int readerTicketIDNumber;
-    private Date date;
-    private int time;
+    private Student student;
+    private final ArrayList<JournalIssueBook>  listBooksIssued = new ArrayList<>();
+
+
+    public ReaderTicket() {
+        readerTicketIDNumber++;
+        this.numberCreation = readerTicketIDNumber;
+    }
+
+    public int getNumberCreation() {
+        return numberCreation;
+    }
+
+    public void setListBooksIssued(JournalIssueBook book) {
+        listBooksIssued.add(book);
+    }
+
+    public ArrayList<JournalIssueBook> getListBooksIssued() {
+        return listBooksIssued;
+    }
+
+    public Student getStudent() {
+        return student;
+    }
 
     public int getReaderTicketIDNumber() {
         return readerTicketIDNumber;
     }
 
-    public void setReaderTicketIDNumber(int readerTicketIDNumber) {
-        this.readerTicketIDNumber = readerTicketIDNumber;
-    }
-
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
-    public int getTime() {
-        return time;
-    }
-
-    public void setTime(int time) {
-        this.time = time;
-    }
+        @Override
+        public String toString() {
+            return  "\nЧитательский билет №: " + numberCreation +
+                    "\nФамилия: " + student.getSurname() +
+                    "\nИмя: " + student.getName() +
+                    "\nСписок выданных книг:\n" + getListBooksIssued();
+        }
 
 }
