@@ -4,17 +4,17 @@ public class Student {
     private String surname;
     private String name;
     private int groupIDNumber;
-    private ReaderTicket readerTicket;
+
     public Student() {
 
     }
-    public ReaderTicket getReaderTicket() {
-        return readerTicket;
+
+    public Student(String surname, String name, int groupIDNumber) {
+        this.surname = surname;
+        this.name = name;
+        this.groupIDNumber = groupIDNumber;
     }
 
-    public void setReaderTicket(ReaderTicket readerTicket) {
-        this.readerTicket = readerTicket;
-    }
     public String getSurname() {
         return surname;
     }

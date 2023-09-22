@@ -1,7 +1,5 @@
 package org.example.task6.core;
 
-import java.util.Date;
-
 public class Book {
 
     private String bookName;
@@ -9,6 +7,11 @@ public class Book {
 
     public Book() {
 
+    }
+
+    public Book(String author, String bookName) {
+        this.author = author;
+        this.bookName = bookName;
     }
 
     public String getBookName() {

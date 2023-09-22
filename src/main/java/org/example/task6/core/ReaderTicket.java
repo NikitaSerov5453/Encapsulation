@@ -35,16 +35,12 @@ public class ReaderTicket {
         return student;
     }
 
-    public int getReaderTicketIDNumber() {
-        return readerTicketIDNumber;
+    @Override
+    public String toString() {
+        return  "\nЧитательский билет №: " + numberCreation +
+                "\nФамилия: " + student.getSurname() +
+                "\nИмя: " + student.getName() +
+                "\nСписок выданных книг:\n" + getListBooksIssued();
     }
-
-        @Override
-        public String toString() {
-            return  "\nЧитательский билет №: " + numberCreation +
-                    "\nФамилия: " + student.getSurname() +
-                    "\nИмя: " + student.getName() +
-                    "\nСписок выданных книг:\n" + getListBooksIssued();
-        }
 
 }

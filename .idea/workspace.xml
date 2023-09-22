@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4485e3f3-916d-4757-8b40-75173c6761be" name="Changes" comment="5 done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task6/core/Journal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task6/core/JournalIssueBook.java" afterDir="false" />
+    <list default="true" id="4485e3f3-916d-4757-8b40-75173c6761be" name="Changes" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task6/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task6/core/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task6/core/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task6/core/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task6/core/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task6/core/Journal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task6/core/Journal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task6/core/JournalIssueBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task6/core/JournalIssueBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task6/core/ReaderTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task6/core/ReaderTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task6/core/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task6/core/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task6/views/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task6/views/View.java" afterDir="false" />
@@ -173,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694873484146</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1">
+      <created>1695182268080</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695182268080</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +197,7 @@
     <MESSAGE value="1, 2 done" />
     <MESSAGE value="3 done" />
     <MESSAGE value="5 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 done" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>

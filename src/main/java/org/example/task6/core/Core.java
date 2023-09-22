@@ -8,14 +8,6 @@ public class Core {
 
     }
 
-    public Book createBook(String author, String bookName) {
-        Book book = new Book();
-
-        book.setAuthor(author);
-        book.setBookName(bookName);
-        return book;
-    }
-
     public void issueBook(Book book, ReaderTicket readerTicket, LocalDate dateIssue, int term) {
         JournalIssueBook issueBook = new JournalIssueBook();
 
@@ -28,20 +20,11 @@ public class Core {
         this.journal.setListBooksIssued(issueBook);
     }
 
-    public Student createStudent(String surname, String name, int groupIDNumber) {
-        Student student = new Student();
-
-        student.setSurname(surname);
-        student.setName(name);
-        student.setGroupIDNumber(groupIDNumber);
-        return student;
-    }
-
     public ReaderTicket issueReaderTicket(Student student) {
         ReaderTicket readerTicket = new ReaderTicket();
 
         readerTicket.setStudent(student);
+        Journal.setReaderTicket(readerTicket);
         return readerTicket;
     }
-
 }

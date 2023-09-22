@@ -1,6 +1,7 @@
 package org.example.task6;
 
 import org.example.task6.core.*;
+import org.example.task6.views.View;
 
 import java.time.LocalDate;
 
@@ -33,26 +34,22 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         Core core = new Core();
-        Journal journal = new Journal();
+        View view = new View();
 
-        Book book = core.createBook("Барри Лонгиер", "Враг мой");
-        Book book1 = core.createBook("Ден Симонс", "Гепирион");
+        Book book = new Book("Барри Лонгиер", "Враг мой");
+        Book book1 = new Book("Ден Симонс", "Гепирион");
 
-        Student student = core.createStudent("Серов", "Никита", 5453);
-        Student student1 = core.createStudent("Попов", "Денис", 13);
+        Student student = new Student("Серов", "Никита", 5453);
+        Student student1 = new Student("Попов", "Денис", 13);
 
         ReaderTicket readerTicket = core.issueReaderTicket(student);
         ReaderTicket readerTicket1 = core.issueReaderTicket(student1);
 
         core.issueBook(book, readerTicket, LocalDate.of(1995, 12 , 13),14);
-        core.issueBook(book1, readerTicket, LocalDate.of(1995, 12 , 13),14);
-        core.issueBook(book1, readerTicket1, LocalDate.ofEpochDay(1995),14);
+        core.issueBook(book, readerTicket1, LocalDate.of(1995, 12 , 13),14);
+        core.issueBook(book1, readerTicket, LocalDate.of(2023, 9 , 18),14);
+        core.issueBook(book1, readerTicket1, LocalDate.of(2023, 9 , 18),14);
 
-
-//        System.out.println(readerTicket);
-        System.out.println();
-        System.out.println();
-//        System.out.println(readerTicket1);
-        System.out.println(core.journal.getListBooksIssued());
+        view.printDebtor(core.journal.getListBooksIssued());
     }
 }

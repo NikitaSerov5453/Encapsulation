@@ -5,7 +5,6 @@ import java.time.LocalDate;
 public class JournalIssueBook {
 
     private LocalDate dateIssue;
-    private ReaderTicket readerTicket;
     private int termIssue;
     private String author;
     private String bookName;
@@ -57,7 +56,7 @@ public class JournalIssueBook {
 
     @Override
     public String toString() {
-        return  "\nАвтор: " + author +
+        return  "Автор: " + author +
                 "\nНазвание книги: " + bookName +
                 "\nДата выдачи: " + dateIssue +
                 "\nСрок на который выдана книга(в днях): " + termIssue +
